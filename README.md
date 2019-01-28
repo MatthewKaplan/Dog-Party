@@ -18,7 +18,7 @@ Desktop Version:
 ![Desktop Version](https://i.imgur.com/bunAhfO.jpg)
 
 iPad Version:
-![iPad](https://i.imgur.com/Z2QnPIy.jpg)
+![iPad](https://i.imgur.com/s525D39.png)
 
 Mobile:
-![Mobile](https://i.imgur.com/4EPEK05.jpg)
+![Mobile](https://i.imgur.com/lwjpxmn.jpg)
