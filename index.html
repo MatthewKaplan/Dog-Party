@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dog Party</title>
+  <!-- Linking CSS file -->
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <!-- Open Sans Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header: navagation bar -->
+  <header>
+    <img class="logo" src="./images/dog-icon.svg" alt="Brown and white dog wearing blue bandana around neck ears up head tilted" />
+    <nav>
+      <ul class="navagation">
+        <li class="nav-links"><a href="">How To Dog</a></li>
+        <li class="nav-links"><a href="">What Is Dogs</a></li>
+        <li class="nav-links"><a href="">Facts From Dogs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- First section: background image, first dog image, input field, and button -->
+  <section class = "main-background">
+    <h1>A Site About <span id = "output">Some Dogs</span></h1> 
+    <img src="images/dog1-sq.jpg" alt="Grey dog white strip down belly ears up yellow background">
+    <form>
+      <p>Name</p>
+      <input class="user-input" type="text" name="user_name"><br>
+      <button type = "submit">Name This Dog</button>
+    </form>
+  </section>
+
+  <!-- Next section: dog articles, dog images, article buttons  -->
+  <section class = "dog-columns"> 
+    <article class = "dog-articles">
+      <h3 class="titles">How To Dog</h3>
+      <img src="images/dog2-sq.jpg" alt="Black dog wearing red bandana around neck">
+      <p>
+        Dat tungg tho pupperino length boy. borkdive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are going me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.
+      </p>
+      <button class="article-buttons" type = "submit">How</button>
+    </article> 
+      
+    <article class = "dog-articles">
+      <h3 class="titles">What is Dogs</h3>
+      <img src="images/dog3-sq.jpg" alt="Brown dog wearing red bandana around neck">
+      <p>
+        Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.
+      </p>
+      <button class="article-buttons second-button" type = "submit">What</button>
+    </article>
+
+    <article class = "dog-articles">
+      <h3 class="titles">Facts From Dog</h3>
+      <img src="images/dog4-sq.jpg">
+      <p>
+        Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.
+      </p>
+      <button class="article-buttons" type = "submit">Facts</button>
+    </article>
+  </section>
+
+  <section class="desktop-buttons">
+    <div class="button"><button class="article-buttons2" type = "submit">How</button></div>
+    <div class="button"><button class="article-buttons2" type = "submit">What</button></div>
+    <div class="button"><button class="article-buttons2" type = "submit">Facts</button></div>
+  </section>
+
+  <!-- Footer: Social media icons -->
+  <footer>
+    <p>Learn About Dogs Online<p>
+    <section class="icons">
+      <img src="./images/twitter.svg" alt="Twitter icon">
+      <img src="./images/instagram.svg" alt="Instagram icon">
+      <img src="./images/facebook.svg" alt="Facebook icon">
+      <img src="./images/linkedin.svg" alt="Linkedin icon">
+    </section>
+  </footer>
+</body>
+</html>
